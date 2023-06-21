@@ -348,7 +348,7 @@ h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
-  /* font-family: "Satisfy", serif; */
+  font-family: "Raleway", sans-serif;
   color: #fff;
 }
 
@@ -582,7 +582,7 @@ section {
 .about .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #5d6a75;
 }
@@ -1358,4 +1358,20 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.social-icons a:hover {
+  color: gray;
 }
