@@ -47,11 +47,13 @@ h6 {
 
 h5{
   margin-bottom: 0%;
+  font-weight: 600;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 i{
   font-family:'cursive';
+  font-size: 18px;
 
 }
 
@@ -503,6 +505,14 @@ section {
 }
 
 
+.work .work-description{
+   color:#3b434ada;
+   margin-top: 15px;
+   font-family:'opensans-regular', sans-serif;
+   font-weight: 100;
+}
+
+
 /*--------------------------------------------------------------
 # Projects
 --------------------------------------------------------------*/
@@ -517,6 +527,11 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+.projects .card-text {
+  font-family:'opensans-regular', sans-serif;
+  color:#3b434aea;
 }
 
 
@@ -544,6 +559,7 @@ section {
 
 .skills .skill-content{
   padding-top: 10px;
+
 }
 
 /*--------------------------------------------------------------
