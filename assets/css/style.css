@@ -500,8 +500,15 @@ section {
   color: #34495ef0;
 }
 
-.about  .contact-head .contact-details{
-  color:rgba(17, 17, 17, 0.787)
+.about .contact-details p{
+  color:rgba(17, 17, 17, 0.787);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.about .aboutme-description{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 
@@ -532,6 +539,7 @@ section {
 .projects .card-text {
   font-family:'opensans-regular', sans-serif;
   color:#3b434aea;
+  font-weight: 200;
 }
 
 
@@ -559,7 +567,7 @@ section {
 
 .skills .skill-content{
   padding-top: 10px;
-
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*--------------------------------------------------------------
