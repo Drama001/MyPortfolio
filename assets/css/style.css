@@ -1,17 +1,22 @@
-/**
-* Template Name: Laura
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/*----------General-----------*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+h5{
+  margin-bottom: 0%;
+  font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -31,35 +36,25 @@ p{
   font-size: large;
 }
 
-.education .date{
-  font-size: medium;
-  color:#3b434aac
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h6 {
-  font-family: "Raleway", sans-serif;
-}
-
-h5{
-  margin-bottom: 0%;
-  font-weight: 600;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 i{
   font-family:'cursive';
   font-size: 18px;
 
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+img {
+  display: block;
+  max-width: 100%;
+  height: 200px;
+}
+
+.underline{
+  border-bottom: 3px solid;
+  padding-bottom: 8px;
+  border-color: #ffb727;
+}
+
+/*---------Back to top button------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -90,9 +85,7 @@ i{
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/*----------Header-----------*/
 #header {
   z-index: 997;
   transition: all 0.5s;
@@ -109,9 +102,7 @@ i{
   background: rgba(25, 28, 31, 0.8);
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+/*----------Navigation Menu-----------*/
 /**
 * Desktop Navigation 
 */
@@ -159,64 +150,6 @@ i{
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #ffb727;
-}
-
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-  border-radius: 4px;
-}
-
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-  font-weight: 400;
-  color: #3b434a;
-  letter-spacing: 1px;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #ffb727;
-}
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
 }
 
 @media (max-width: 1366px) {
@@ -301,43 +234,8 @@ i{
   margin: 15px;
 }
 
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
+/*----------Hero Section-----------*/
 
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #ffb727;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-}
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -427,9 +325,8 @@ i{
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/*----------Sections General-----------*/
+
 section {
   padding: 60px 0;
 }
@@ -485,9 +382,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# About Me
---------------------------------------------------------------*/
+/*----------About me-----------*/
 
 .about .image {
   background: url("../img/me.jpg") center center no-repeat;
@@ -511,6 +406,14 @@ section {
   font-weight: 300;
 }
 
+/*----------Education-----------*/
+
+.education .date{
+  font-size: medium;
+  color:#3b434aac
+}
+
+/*----------Work-----------*/
 
 .work .work-description{
    color:#3b434ada;
@@ -519,10 +422,7 @@ section {
    font-weight: 100;
 }
 
-
-/*--------------------------------------------------------------
-# Projects
---------------------------------------------------------------*/
+/*----------Projects-----------*/
 
 .projects .title {
   font-weight: 700;
@@ -542,10 +442,8 @@ section {
   font-weight: 200;
 }
 
+/*----------Skills-----------*/
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
 .skills {
   padding: 80px 0;
   background: url("../img/skills-bg.png") no-repeat;
@@ -570,9 +468,8 @@ section {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/*----------Footer-----------*/
+
 #footer {
   background:rgba(0, 0, 0); ;
   background-size: cover;
@@ -597,9 +494,7 @@ section {
   position: relative;
 }
 
-/*--------------------------------------------------------------
-# Social Icons
---------------------------------------------------------------*/
+/*----------Social Icons-----------*/
 
 .social-icons {
   margin-top: 30px;
@@ -615,3 +510,31 @@ section {
 .social-icons a:hover {
   color: white;
 }
+
+/*----------Media Queries-----------*/
+@media (max-width: 992px) {
+  .education .education-content,
+  .work .work-content,
+  .about .aboutme-content{
+    text-align: center;
+  }
+
+.card {
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
+}
+
+.skills .skill-content{
+ text-align: center;
+}
+}
+
+@media only screen and (max-width: 912px) and (min-width: 540px)  {
+  .about .image {
+   min-height: 0px;
+ }
+}
+
+
+

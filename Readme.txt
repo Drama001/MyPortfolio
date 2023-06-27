@@ -1,4 +1,4 @@
-Thanks you for visitng my portfolio
+Thank you for visitng my portfolio!!
 
 Author: Divya Sree Ramagiri
 
